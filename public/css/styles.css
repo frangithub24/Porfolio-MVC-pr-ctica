@@ -1,0 +1,12 @@
+h2 {
+    text-align:center;
+    color:tomato;
+}
+
+.impar {
+    border: 1px green solid;
+}
+
+.par {
+    border:1px red;
+}
