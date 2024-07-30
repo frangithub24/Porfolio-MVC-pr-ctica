@@ -1,6 +1,6 @@
 //Requerimos path para poder enviar los archivos HTML
 
-const path = require ("path");
+//const path = require ("path");
 
 //Creamos el objeto literal con los métodos a exportar
 const mainController = {
@@ -9,7 +9,7 @@ const mainController = {
          res.render("index");//le digo a mi controlador que quiero renderizar una vista, no mostarr un texto
         //uso el método render, cambiando el método send y menciono el nombre de la vista que quiero renderizar (index)
     },
-    register: (req,res)=>{
+    register: (req,res)=> {
         res.render("registro");
     },
     login: (req,res)=> {
@@ -17,7 +17,7 @@ const mainController = {
     },
     nuevo: (req,res) => {
         //res.sendFile(path.join(__dirname, "../views/partials/nuevo.html"));
-        res.render("..partials/nuevo");
+        res.render("partials/nuevo");
     }
 };
 
