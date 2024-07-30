@@ -11,6 +11,6 @@ router.get('/', mainController.index); //del controlador principal quiero utiliz
 //qué hace index? lo que teniamos antes:)
 router.get("/registro", mainController.register);
 router.get("/login",mainController.login);
-router.get("/nuevo",mainController.pato);
+router.get("/nuevo",mainController.nuevo);
 //Exportamos la variable router ya con todas las rutas "guardadas", que se usará en app.js
 module.exports = router;
